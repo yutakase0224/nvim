@@ -44,7 +44,8 @@ return require('packer').startup(function(use)
 	use { 'kevinhwang91/nvim-hlslens', config = require('plugin.hlslens') }
 	use { "tversteeg/registers.nvim", config = require('plugin.registers') }
 	use { 'chrisbra/csv.vim', config = require('plugin.csv') }
-
+	use { 'cacharle/c_formatter_42.vim' }
+	use { 'github/copilot.vim' }
 	--[[use {
         "zbirenbaum/copilot.lua",
         event = "InsertEnter",
